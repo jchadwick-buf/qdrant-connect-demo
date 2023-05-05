@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "@bufbuild/buf": "^1.15.0-1",
+    "@bufbuild/connect": "^0.8.6",
+    "@bufbuild/connect-node": "^0.8.6",
+    "@bufbuild/protobuf": "^1.2.0",
+    "@bufbuild/protoc-gen-connect-es": "^0.8.6",
+    "@bufbuild/protoc-gen-es": "^1.2.0",
+    "typescript": "^5.0.4"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "generate": "buf generate",
+    "start": "ts-node main.ts"
+  }
+}
